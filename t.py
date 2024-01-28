@@ -43,7 +43,7 @@ def randomURL():
     abc = 'qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890'
     lenght = len(abc) - 1
     url = ''
-    for i in range(randint(4,8)):
+    for i in range(8):
         url += abc[randint(0,lenght)]
     return url
 
