@@ -1,5 +1,5 @@
 from colorama import Fore, Back, init
-
+version = 'v0.0.1'
 preview = f'''\n\n\n\n\n\n\n\n
 
 ░▒▓███████▓▒░░▒▓█▓▒░░▒▓███████▓▒░░▒▓██████▓▒░ ░▒▓██████▓▒░░▒▓███████▓▒░░▒▓███████▓▒░                    
