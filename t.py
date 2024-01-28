@@ -5,9 +5,6 @@ from dhooks import Webhook
 import threading
 from colorama import Fore, Back, init
 init()
-
-version = 'v0.0.1'
-
 print(preview)
 
 version.close()
