@@ -1,5 +1,5 @@
 
-# this utility uses Scraper api -- https://www.scraperapi.com/
+# this utility uses Scraper api -- https://www.scraperapi.com/. Launch with version.txt in folder
 ### When you register, you will be given 5,000 free requests, and there is no rate limit for you.
 
 
