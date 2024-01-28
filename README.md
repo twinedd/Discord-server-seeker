@@ -16,7 +16,7 @@ Enjoy
 ![Tutorial](https://cdn.discordapp.com/attachments/1194739385787224175/1201105898936991774/Screenshot_2024-01-28_125510.png?ex=65c89c09&is=65b62709&hm=be88d259bb766886544dc567c240cda18acf059cf34607102ca6b0f069de81a5&)
 
 Here you can change the number of characters in the invite; if you want to find unknown, private servers, then simply put the number 8.
-Like for i in range(8):
+Like for i in range(8): or for i in range(random.randint(4,8)):
 ![+](https://cdn.discordapp.com/attachments/1194739385787224175/1201123761500471296/Screenshot_2024-01-28_141532.png?ex=65c8acac&is=65b637ac&hm=46b49568089d638760a3532793d844f4578e6f727e3389906fd816c0d286a5b2&)
 
 
