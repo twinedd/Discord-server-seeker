@@ -7,8 +7,6 @@ import threading
 from colorama import Fore, Back, init
 init()
 print(preview)
-
-version.close()
 hook = Webhook('WEBHOOK URL')
 def createPayload(method: str, url: str, data = None):
     payload = { 'api_key': 'SCRAPER API-KEY', 'url': url } 
