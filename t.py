@@ -5,7 +5,7 @@ import threading
 from colorama import Fore, Back, init
 init()
 
-version = open('version.txt','r')
+version = 'v0.0.1'
 
 print(f'''\n\n\n\n\n\n\n\n
 
