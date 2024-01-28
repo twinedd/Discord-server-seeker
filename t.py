@@ -1,4 +1,5 @@
 import requests,time
+from lib import preview
 from random import randint
 from dhooks import Webhook
 import threading
