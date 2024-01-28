@@ -29,9 +29,9 @@ print(f'''\n\n\n\n\n\n\n\n
 version: {Back.GREEN + version.readline() + Back.RESET}\n\n\n''')
 
 version.close()
-
+hook = Webhook('WEBHOOK URL')
 def createPayload(method: str, url: str, data = None):
-    payload = { 'api_key': 'd64cd41c3eb3a716928ec5037f9b69cc', 'url': url } 
+    payload = { 'api_key': 'SCRAPER API-KEY', 'url': url } 
     r = None
     if method == "get":
         r = requests.get('https://api.scraperapi.com/', params=payload)
@@ -46,8 +46,6 @@ def randomURL():
     for i in range(randint(4,8)):
         url += abc[randint(0,lenght)]
     return url
-    
-hook = Webhook('https://discord.com/api/webhooks/1201086934462763038/dwin_1dGa0ugJtlc65n0yucOTHaPCqlU-1yTwWXKERH2SI8tKslC5L0sC86Kci9czm1f')
 
 count = 1
 
