@@ -1,3 +1,8 @@
+global webhook,scraper_api_key,characters
+webhook = 'WEBHOOK'
+scraper_api_key = 'KEY'
+characters = 8
+#code
 import requests,time
 from lib___123 import preview
 from lib___123 import version
@@ -7,9 +12,11 @@ import threading
 from colorama import Fore, Back, init
 init()
 print(preview)
-hook = Webhook('WEBHOOK URL')
+hook = Webhook(webhook)
+
+
 def createPayload(method: str, url: str, data = None):
-    payload = { 'api_key': 'SCRAPER API-KEY', 'url': url } 
+    payload = { 'api_key': scraper_api_key, 'url': url } 
     r = None
     if method == "get":
         r = requests.get('https://api.scraperapi.com/', params=payload)
@@ -21,12 +28,11 @@ def randomURL():
     abc = 'qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890'
     lenght = len(abc) - 1
     url = ''
-    for i in range(8):
+    for i in range(characters):
         url += abc[randint(0,lenght)]
     return url
 
 count = 1
-
 def createSearch():
     global count
     while 1:
